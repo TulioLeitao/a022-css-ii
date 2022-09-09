@@ -1,19 +1,29 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
   main{
     width: 800px;
+    text-align: left;
+    margin: auto;
+    
   }
-  
-  aside{
+
+    aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0px;
+    text-align: center;
+   
   }
   
   footer{
     background-color: black;
     color: white;
+    position: fixed;
+    bottom: 0px;
     width: 100%;
   }
   
@@ -21,4 +31,13 @@ header{
     background-color: black;
     color: white;
     font-family: serif;
+    text-align: center;
+  }
+  aside:active{
+    color: white;
+    background-color: black ;
+  }
+  button:active{ 
+    color: black;
+    background-color: white ;
   }
