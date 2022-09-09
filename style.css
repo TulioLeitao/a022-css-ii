@@ -5,34 +5,39 @@ header{
   
   main{
     width: 800px;
-    text-align: center;
+    text-align: left;
+    margin: auto;
     
   }
 
-  section{
-    border: 1px solid black;
-       
-    
-  }
-  
-  aside{
+    aside{
     width: 180px;
     border: 1px solid black;
     position: fixed;
     right: 0px;
-    
+    text-align: center;
+   
   }
   
   footer{
     background-color: black;
     color: white;
-    width: 100%;
-    position: sticky;
+    position: fixed;
     bottom: 0px;
+    width: 100%;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+    text-align: center;
+  }
+  aside:active{
+    color: white;
+    background-color: black ;
+  }
+  button:active{ 
+    color: black;
+    background-color: white ;
   }
